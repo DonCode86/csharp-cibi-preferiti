@@ -12,7 +12,9 @@ for (int i = 0; i < favoriteDishes.Length; i++)
 {
     Console.WriteLine(String.Format("piatto preferito[{0}] = {1}", i+1, favoriteDishes[i]));
 }
-Console.WriteLine("il tuo cibo preferito è: " + favoriteDishes[0]);
-Console.WriteLine("il tuo cibo meno preferito è: " + favoriteDishes[4]);
+
+Console.WriteLine("il tuo cibo preferito è: " + favoriteDishes.First());
+Console.WriteLine("il tuo cibo meno preferito è: " + favoriteDishes.Last());
+
 
 
