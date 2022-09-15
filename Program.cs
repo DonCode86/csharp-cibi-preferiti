@@ -7,7 +7,8 @@ string[] favoriteDishes = new string[] { "Pasta", "Pizza", "Carne", "Gelato", "P
 //stampo lunghezza Array
 Console.Write("Il numero totale dei tuoi piatti preferiti è:" + favoriteDishes.Length);
 Console.WriteLine("");
+//stampa lista piatti
 foreach (string dishes in favoriteDishes)
 {
-    Console.WriteLine("Ecco la lista dei tuoi piatti preferiti:" + dishes);
+    Console.WriteLine(dishes);
 }
