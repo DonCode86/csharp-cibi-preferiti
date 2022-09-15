@@ -12,3 +12,4 @@ for (int i = 0; i < favoriteDishes.Length; i++)
 {
     Console.WriteLine(String.Format(" favoriteDishes[{0}] = {1}", i, favoriteDishes[i]));
 }
+Console.WriteLine("il tuo cibo preferito è: " + favoriteDishes[0]);
