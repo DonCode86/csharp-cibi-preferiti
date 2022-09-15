@@ -16,10 +16,12 @@ for (int i = 0; i < favoriteDishes.Length; i++)
 Console.WriteLine("il tuo cibo preferito è: " + favoriteDishes.First());
 Console.WriteLine("il tuo cibo meno preferito è: " + favoriteDishes.Last());
 
+//se la lunghezza dell'array e' dispari
 if (favoriteDishes.Length % 2 == 1)
 {
     Console.WriteLine("Il piatto centrale è: " + favoriteDishes[(favoriteDishes.Length / 2)]);
-} else  
+}
+else   //se la lunghezza dell'array e' pari
 { 
     Console.WriteLine("I piatti centrali nella tua lista sono: " + favoriteDishes[(favoriteDishes.Length / 2)] + " e " + favoriteDishes[(favoriteDishes.Length / 2 - 1)]);
 }
